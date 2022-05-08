@@ -1,0 +1,5 @@
+name, category, subcategory, rate(res/min), energy(MW), overclockable, input, output
+oil extractor, production, fluid extractor, 60, 40, true, 0, 1
+water extractor, production, fluid extractor, 120, 20, true, 0, 1
+resource well pressurizer, production, fluid extractor, 0, 150, true, 0, 0
+resource well extractor, production, fluid extractor, 30, 0, true, 0, 1

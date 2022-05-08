@@ -1,0 +1,4 @@
+name, category, subcategory, rate(res/min), energy(MW), overclockable, input, output
+miner mk1, production, miner, 60, 5, true, 0, 1
+miner mk2, production, miner, 120, 12, true, 0, 1
+miner mk3, production, miner, 240, 30, true, 0, 1

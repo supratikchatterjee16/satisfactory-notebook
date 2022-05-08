@@ -1,0 +1,6 @@
+name, categry, subcategory, base_power, overclockable, inputs, outputs, max_base
+biomass burner, power, generators, 30, yes, 0, 0
+coal generators, power, generators, 75, yes, 2, 0
+fuel generators, power, generators, 150, yes, 1, 0
+geothermal generators, power, generators, 50, yes, 0, 0, 600
+nuclear power plant, power, generators, 2500, yes, 2, 1

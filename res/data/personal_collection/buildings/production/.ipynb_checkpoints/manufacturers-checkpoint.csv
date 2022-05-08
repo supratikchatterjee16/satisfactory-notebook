@@ -1,0 +1,8 @@
+name, category, subcategory, rate(res/min), energy(MW), overclockable, input, output
+constructor, production, manufacturers, -1, 4, true, 1, 1
+assembler, production, manufacturers, -1, 15, true, 2, 1
+manufacturer, production, manufacturers, -1, 55, true, 4, 1
+blender, production, manufacturers, -1, 75, true, 4, 2
+packager, production, manufacturers, -1, 10, true, 2, 2
+refinery, production, manufacturers, -1, 30, true, 2, 2
+manufacturer, production, manufacturers, -1, 55, true, 4, 1

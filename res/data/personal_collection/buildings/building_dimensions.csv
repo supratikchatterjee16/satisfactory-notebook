@@ -1,0 +1,34 @@
+name, width(m), length(m), height(m), area(m2), max_length(m), max_heights(m)
+miner mk1, 6, 14, 18, 84
+miner mk2, 6, 14, 18, 84
+miner mk3, 6, 14, 18, 84
+oil extractor, 12, 20, 20, 240
+water extractor, 25, 25, 26, 390
+resource well pressurizer, 20, 20, 23, 400
+resource well extractor, 4, 4, 5, 16
+smelter, 6, 9, 9, 54
+foundry, 10, 9, 9, 90
+constructor, 8, 10, 8, 80
+assembler, 10, 15, 11, 150
+manufacturer, 18, 19, 12, 342
+blender, 18, 16, 15, 288
+packager, 8, 8, 12, 64
+refinery, 10, 20, 31, 200
+particle accelerator, 24, 38, 32, 912
+conveyor belt mk1, 2, 1, 1, -1, 56
+conveyor belt mk2, 2, 1, 1, -1, 56
+conveyor belt mk3, 2, 1, 1, -1, 56
+conveyor belt mk4, 2, 1, 1, -1, 56
+conveyor belt mk5, 2, 1, 1, -1, 56
+pipeline, 2, 1, 2, 2, 50
+railway, 6, 12, 1, 72, 100
+conveyor merger, 4, 4, 4, 16
+conveyor splitter, 4, 4, 4, 16d
+conveyor poles, 2, 1, 1, 2, , 7
+pipeline support, 2, 1, 3, 2, ,9
+biomass burner, 8, 8, 7, 64
+coal generator, 10, 26, 36, 260
+fuel generator, 20, 20, 27, 400
+geothermal generator, 19, 20, 34, 380
+nuclear power plant, 38, 43, 49, 1634
+power storage, 6, 6, 12, 36
