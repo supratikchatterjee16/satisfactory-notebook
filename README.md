@@ -2,7 +2,7 @@
 
 
 This repository is a Jupyter Notebook managed repository. It contains information for 
-planning within the game Satisfactory.
+planning within the game Satisfactory. It has a related project, which has been detailed below.
 
 ## Running
 
@@ -11,6 +11,41 @@ git clone https://github.com/supratikchatterjee16/satsifactory-notebook.git sati
 cd satisfactory-notebook
 jupyter-lab
 ```
+
+## Project
+
+### Statement
+
+Using the information about the game available to us, create a program that is able to create symmetrical architectures,
+packing the machines within itself.
+
+By doing so, we can design efficient manufacturing plants, with low regards for the manufacturing requirements, and pay more attention to architecture within the game, to achieve beautiful designs such as the ones we see below :
+
+1. https://www.youtube.com/watch?v=QQeO1RyHrsA
+2. https://www.youtube.com/watch?v=djcqGe02tdc&t=40s
+3. https://www.youtube.com/watch?v=98ujAFCWGoQ
+
+### Design
+
+We do not need to work on feature extraction, as we intend to solve a problem statement, rather than make a 'product' or 'service'.
+
+The functional design is as such : 
+
+![Functional Design](./concepts/functional_overview.png)
+
+#### Data
+
+The data is sourced and stored as raw non-normalized data first.
+It takes the form of : 
+
+![ERD - Transactional](./concepts/raw_data.png)
+
+After normalization, it takes the form of : 
+
+![ERD - Normalized](./concepts/normalized_data.png)
+
+#### 
+
 
 ## Parts of the project
 
