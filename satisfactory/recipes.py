@@ -1,6 +1,7 @@
 import os
 import time
 import pandas
+import appdirs
 import logging
 
 logger = logging.getLogger()
@@ -18,9 +19,11 @@ class RecipeData:
                  base_url: str = 'https://satisfactory.fandom.com/wiki/',
                  url_extensions=['Constructor', 'Assembler', 'Manufacturer',
                                  'Packager', 'Refinery', 'Blender', 'Smelter', 'Foundry'],
-                 data_location=os.path.join('res', 'data'),
+                 data_location=appdirs.user_data_dir(
+                     'satisfactory', 'conceivilize'),
                  filename='recipes.csv',
-                 db='sqlite:///' + os.path.join('res', 'data', 'satisfactory_data.sqlite')):
+                 db='sqlite:///' + os.path.join(appdirs.user_data_dir(
+                     'satisfactory', 'conceivilize'), 'satisfactory_data.sqlite')):
         self.base_url = base_url
         self.url_extensions = url_extensions
         try:
