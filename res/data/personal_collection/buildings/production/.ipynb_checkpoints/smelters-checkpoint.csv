@@ -1,3 +1,0 @@
-name, category, subcategory, rate(res/min), energy(MW), overclockable, input, output
-smelter, production, smelter, 60, 4, true, 1, 1
-foundry, production, smelter, 120, 16, true, 2, 1

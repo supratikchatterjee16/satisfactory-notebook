@@ -28,7 +28,7 @@ requirements_noversion = [
 
 setup(
     # Non-Technical requirements
-    name="satisfactory",
+    name="satisfactory_planner",
     version="0.0.1",
     description="Analyze data, find all recipes and more in the game of Satisfactory",
     # https://stackoverflow.com/questions/14399534/reference-requirements-txt-for-the-install-requires-kwarg-in-setuptools-setup-py
@@ -39,14 +39,14 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        "LICENSE :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+        "License :: Free for non-commercial use"
     ],
     # Technical Requirements
     # ext_modules=[],
     packages=find_packages(),
     install_requires=requirements_noversion,
-    package_dir={'satisfactory': './satisfactory'},
-    package_data={'satisfactory': ['res/images/*']},
+    package_dir={'satisfactory_planner': './satisfactory_planner'},
+    package_data={'satisfactory_planner': ['res/images/*']},
     # entry_points={'console_scripts': ['track = et:run'], },
     zip_safe=True
 )
